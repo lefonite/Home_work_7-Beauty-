@@ -1,6 +1,359 @@
-.flexbox-container{
-    display: flex;
-    width: 1oo%;
-    display: block;
-
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
 }
+
+.container{
+    width: 100%;
+}
+
+nav{
+    background-color:#EFEFEF;
+}
+.list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.list-item{
+    padding: 17px 15px;
+}
+.list-item a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+a:hover{
+    color: #de3363;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    max-width: 255px;
+    padding: 25px;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 30px ;
+}
+.box img{
+    width: 125px;
+}
+.box h4{
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+.box p{
+    margin: 20px 0;
+    width: 90%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.box button{
+    padding: 10px 50px;
+    color: #fff;
+    background-color:#F13C6E;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.box button:hover{
+    padding: 10px 50px;
+    color: #fff;
+    background-color:#de3363;
+    border-radius: 30px;
+    border: none;
+}
+.boxing{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:flex-start;
+    margin-top: 10px;
+}
+
+.home_intro{
+    background-image: url(../img/background_banner.png);
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 604px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.secondary{
+    padding: 12px 60px;
+    color: #ffffff;
+    background-color:#ffffff00;
+    border-radius: 30px;
+    border: 2px solid #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.home_intro h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.home_intro p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    max-width: 308px;
+    padding: 40px 0;
+    line-height: 20px;
+}
+
+.welcome_txt{
+    padding-left: 10%;
+}
+
+.header-container {
+    padding: 20px 10% 20px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-container p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #F13C6E;
+    letter-spacing: 0.1em;
+}
+.logo>p{
+    margin-left: 20px;
+}
+
+
+.logo, .contacts {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.contacts a{
+    margin-right: 40px;
+}
+
+
+.contacts button{
+    padding: 12px 56px;
+    color: #000000;
+    background-color:#ffffff00;
+    border-radius: 30px;
+    border: 2px solid #F13C6E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+hr{
+    border: none; 
+    color: #EFEFEF; 
+    background-color: #EFEFEF;
+    height: 1px;
+}
+
+.list_menu{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+} 
+
+.list_menu>li{
+    padding: 30px 20px 30px 20px;
+} 
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+main{
+    background-color: #EFEFEF;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    padding: 80px 10% 80px 10%;
+}
+
+.bonusi{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bonus1{
+    background-color: #F13C6E;
+    flex-grow: 1;
+    padding: 40px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    min-width: 225px;
+    padding: 9px 25px 9px 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration-color: #C4C4C4;
+    border: none;
+    border-radius: 30px;
+}
+.txt p{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 25px 0 25px 0;
+    max-width: 130px;
+    line-height: 20px;
+}
+
+.txt h3{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.bonus2{
+    background-color: #F13C6E;
+    flex-grow: 1;
+    padding: 40px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.impuls{
+    background-color: #ffffff;
+    padding: 35px 65px 35px 65px;
+    margin: 1px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+.impulsi{
+    display: flex;
+    flex-wrap: wrap;  
+    margin: 100px 0 80px 0;
+}
+
+footer{
+    background-color: #ffffff;
+}
+
+.name p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    max-width: 100px;
+    padding: 60px 0 30px 0;
+}
+
+.name hr{
+    margin-bottom: 20px;
+    display: flex;
+    min-width: 250px;
+}
+
+
+.name{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0 15px 0 15px;
+    flex-grow: 1;
+}
+
+.menu-item a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #828282;
+}
+
+.footer_names{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0px 10% 60px 10%;
+}
+.footer-container{
+    padding: 40px 10% 40px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-container>.logo> a{
+    padding-right: 20px;
+}
+
+.footer-info{
+    background-color:#EFEFEF;
+    padding: 25px 10% 25px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-info p{
+    color: #828282;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -279,7 +279,6 @@ input{
     background-color: #ffffff;
     padding: 35px 65px 35px 65px;
     margin: 1px;
-    flex-grow: 1;
     display: flex;
     justify-content: center;
 }

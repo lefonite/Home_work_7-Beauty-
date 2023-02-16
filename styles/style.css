@@ -234,6 +234,20 @@ input{
     border: none;
     border-radius: 30px;
 }
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #C4C4C4;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #C4C4C4;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #C4C4C4;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #C4C4C4;
+}
+
 .txt p{
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
